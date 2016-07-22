@@ -1,0 +1,240 @@
+body {
+  color: #ffbb55;
+  background-color: #333344; }
+
+a:link {
+  color: #444455;
+  background-color: #eebbcc; }
+
+a:visited {
+  color: #334455;
+  background-color: #eebbcc; }
+
+a:hover {
+  color: #666677;
+  background-color: #ffbb55; }
+
+a:active {
+  color: #777788;
+  background-color: #eecc88; }
+
+header {
+  color: #eecc88;
+  background-color: #333344;
+  border-color: #666677; }
+
+nav {
+  color: #445555;
+  background-color: #778899;
+  border-color: #666677; }
+  nav ul {
+    border-color: #9999aa; }
+  nav a:link,
+  nav a:visited {
+    color: #eeeeff;
+    background-color: transparent;
+    border-color: #9999aa; }
+  nav nav a:hover {
+    color: #444455;
+    background-color: #eebbcc; }
+
+.content {
+  color: #222233;
+  background-color: #eeddcc;
+  border-color: #666677; }
+
+nav a:active {
+  color: #666677;
+  background-color: #eecc88; }
+
+nav a.here:link,
+nav a.here:visited,
+nav a.here:hover,
+nav a.here:active {
+  color: #eeeeff;
+  background-color: #779999; }
+
+.content img {
+  border-color: #bbaa99;
+  outline-color: #ddccbb; }
+
+#imagegallery a {
+  background-color: transparent; }
+
+th {
+  color: #eeddcc;
+  background-color: #445555; }
+
+tr td {
+  color: #222233;
+  background-color: #eebbcc; }
+
+tr.odd td {
+  color: #222233;
+  background-color: #eecc88; }
+
+tr.highlight td {
+  color: #222233;
+  background-color: #ccbbaa; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  margin: 1em 10%;
+  background-image: url(../img/background.gif);
+  background-attachment: fixed;
+  background-position: top left;
+  background-repeat: repeat-x;
+  max-width: 80em; }
+
+header {
+  background-image: url(../img/guitarist.gif);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  border-width: .1em;
+  border-style: solid;
+  border-bottom-width: 0; }
+
+nav {
+  background-image: url(../img/navbar.gif);
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  border-width: .1em;
+  border-style: solid;
+  border-bottom-width: 0;
+  border-top-width: 0;
+  padding-left: 10%; }
+
+nav ul {
+  width: 100%;
+  overflow: hidden;
+  border-left-width: .1em;
+  border-left-style: solid; }
+
+nav li {
+  display: inline; }
+
+nav li a {
+  display: block;
+  float: left;
+  padding: .5em 2em;
+  border-right: .1em solid; }
+
+.content {
+  border-width: .1em;
+  border-style: solid;
+  border-top-width: 0;
+  padding: 2em 10%;
+  line-height: 1.8em; }
+
+#about header {
+  background-image: url(../img/lineup.gif); }
+
+#photos header {
+  background-image: url(../img/basshead.gif); }
+
+#live header {
+  background-image: url(../img/bassist.gif); }
+
+#contact header {
+  background-image: url(../img/drummer.gif); }
+
+.content img {
+  border-width: .1em;
+  border-style: solid;
+  outline-width: .1em;
+  outline-style: solid; }
+
+#imagegallery li {
+  display: inline; }
+
+#slideshow {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden; }
+
+img#frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  border-width: 0;
+  outline-width: 0; }
+
+img#preview {
+  position: absolute;
+  border-width: 0;
+  outline-width: 0; }
+
+dl {
+  overflow: hidden; }
+
+dt {
+  float: left; }
+
+dd {
+  float: left; }
+
+label {
+  display: block; }
+
+fieldset {
+  border: 0; }
+
+td {
+  padding: .5em 3em; }
+
+body {
+  font-size: 76%;
+  font-family: "Helvetica", "Arial", sans-serif; }
+
+body * {
+  font-size: 1em; }
+
+a {
+  font-weight: bold;
+  text-decoration: none; }
+
+nav {
+  font-family: "Lucida Grande", "Helvetica", "Arial", sans-serif; }
+
+nav a {
+  text-decoration: none;
+  font-weight: bold; }
+
+.content {
+  line-height: 1.8em; }
+
+.content p {
+  margin: 1em 0; }
+
+h1 {
+  font-family: "Georgia", "Times New Roman", sans-serif;
+  font: 2.4em normal; }
+
+h2 {
+  font-family: "Georgia", "Times New Roman", sans-serif;
+  font: 1.8em normal;
+  margin-top: 1em; }
+
+h3 {
+  font-family: "Georgia", "Times New Roman", sans-serif;
+  font: 1.4em normal;
+  margin-top: 1em; }
+
+#imagegallery li {
+  list-style-type: none; }
+
+dt {
+  margin-right: 1em; }
+
+dd {
+  margin-right: 3em; }
+
+textarea {
+  font-family: "Helvetica", "Arial", sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
