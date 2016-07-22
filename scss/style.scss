@@ -1,21 +1,5 @@
-$tuna: #333344;
-$beauty-brush: #eebbcc;
-$texas-rose: #ffbb55;
-$flax: #eecc88;
-$dolphin: #666677;
-$slate-grey: #778899;
-$cape-cod: #445555;
-$steel-grey: #222233;
-$almond: #eeddcc;
-$santas-gray: #9999aa;
-$titan-white: #eeeeff;
-$storm-gray: #777788;
-$gun-powder: #444455;
-$pickled-bluewood: #334455;
-$juniper: #779999;
-$malta: #bbaa99;
-$bone: #ddccbb;
-$coral-reef: #ccbbaa;
+@import 'variables';
+@import 'nav';
 body {
     color: $texas-rose;
     background-color: $tuna;
@@ -47,42 +31,10 @@ header {
     border-color: $dolphin;
 }
 
-nav {
-    color: $cape-cod;
-    background-color: $slate-grey;
-    border-color: $dolphin;
-    ul {
-        border-color: $santas-gray;
-    }
-    a:link,
-    a:visited {
-        color: $titan-white;
-        background-color: transparent;
-        border-color: $santas-gray;
-    }
-    nav a:hover {
-        color: $gun-powder;
-        background-color: $beauty-brush;
-    }
-}
-
 .content {
     color: $steel-grey;
     background-color: $almond;
     border-color: $dolphin;
-}
-
-nav a:active {
-    color: $dolphin;
-    background-color: $flax;
-}
-
-nav a.here:link,
-nav a.here:visited,
-nav a.here:hover,
-nav a.here:active {
-    color: $titan-white;
-    background-color: $juniper;
 }
 
 .content img {

@@ -1,3 +1,27 @@
+nav {
+  color: #445555;
+  background-color: #778899;
+  border-color: #666677; }
+  nav ul {
+    border-color: #9999aa; }
+  nav a:link,
+  nav a:visited {
+    color: #eeeeff;
+    background-color: transparent;
+    border-color: #9999aa; }
+  nav nav a:hover {
+    color: #444455;
+    background-color: #eebbcc; }
+    nav nav a:hover a:active {
+      color: #666677;
+      background-color: #eecc88; }
+    nav nav a:hover a.here:link,
+    nav nav a:hover a.here:visited,
+    nav nav a:hover a.here:hover,
+    nav nav a:hover a.here:active {
+      color: #eeeeff;
+      background-color: #779999; }
+
 body {
   color: #ffbb55;
   background-color: #333344; }
@@ -23,36 +47,10 @@ header {
   background-color: #333344;
   border-color: #666677; }
 
-nav {
-  color: #445555;
-  background-color: #778899;
-  border-color: #666677; }
-  nav ul {
-    border-color: #9999aa; }
-  nav a:link,
-  nav a:visited {
-    color: #eeeeff;
-    background-color: transparent;
-    border-color: #9999aa; }
-  nav nav a:hover {
-    color: #444455;
-    background-color: #eebbcc; }
-
 .content {
   color: #222233;
   background-color: #eeddcc;
   border-color: #666677; }
-
-nav a:active {
-  color: #666677;
-  background-color: #eecc88; }
-
-nav a.here:link,
-nav a.here:visited,
-nav a.here:hover,
-nav a.here:active {
-  color: #eeeeff;
-  background-color: #779999; }
 
 .content img {
   border-color: #bbaa99;

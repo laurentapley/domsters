@@ -1,0 +1,29 @@
+nav {
+    color: $cape-cod;
+    background-color: $slate-grey;
+    border-color: $dolphin;
+    ul {
+        border-color: $santas-gray;
+    }
+    a:link,
+    a:visited {
+        color: $titan-white;
+        background-color: transparent;
+        border-color: $santas-gray;
+    }
+    nav a:hover {
+        color: $gun-powder;
+        background-color: $beauty-brush;
+        a:active {
+            color: $dolphin;
+            background-color: $flax;
+        }
+        a.here:link,
+        a.here:visited,
+        a.here:hover,
+        a.here:active {
+            color: $titan-white;
+            background-color: $juniper;
+        }
+    }
+}
